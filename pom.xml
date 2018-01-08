@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>DEVOPS</groupId>
     <artifactId>JENKINS</artifactId>
-    <version>4.5</version>
+    <version>3.5</version>
     <packaging>war</packaging>
     <name>myproject</name>
     <properties>
@@ -33,12 +33,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://54.164.230.13:8081/repository/maven-releases/</url>
+            <url>http://34.238.255.184:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.164.230.13:8081/repository/maven-snapshots/</url>
+            <url>http://34.238.255.184:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
